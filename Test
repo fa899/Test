@@ -1,0 +1,649 @@
+local pro = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Source = Instance.new("TextBox")
+local exec = Instance.new("TextButton")
+local Clear = Instance.new("TextButton")
+local cmds = Instance.new("TextButton")
+local Credits = Instance.new("TextButton")
+local x = Instance.new("TextButton")
+local credits = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Title_2 = Instance.new("TextLabel")
+local Helo = Instance.new("TextLabel")
+local scripter = Instance.new("TextLabel")
+local nohate = Instance.new("TextLabel")
+local Back = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local UIby = Instance.new("TextLabel")
+local nohate_2 = Instance.new("TextLabel")
+local CMD = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local Title_3 = Instance.new("TextLabel")
+local Back_2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local CMD1 = Instance.new("TextLabel")
+local CMD2 = Instance.new("TextLabel")
+local CMD3 = Instance.new("TextLabel")
+local CMD4 = Instance.new("TextLabel")
+local CMD5 = Instance.new("TextLabel")
+local CMD6 = Instance.new("TextLabel")
+local HFT = Instance.new("TextLabel")
+local HCMD1 = Instance.new("TextLabel")
+local HCMD2 = Instance.new("TextLabel")
+local HCMD3 = Instance.new("TextLabel")
+local HCMD3_2 = Instance.new("TextLabel")
+local CMD7 = Instance.new("TextLabel")
+
+--Properties:
+
+pro.Name = "FleXusV3"
+pro.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = pro
+main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+main.BorderColor3 = Color3.fromRGB(117, 117, 117)
+main.Position = UDim2.new(0.204843596, 0, 0.198098257, 0)
+main.Selectable = true
+main.Size = UDim2.new(0, 566, 0, 332)
+main.Active = true
+main.Draggable = true
+
+UICorner.Parent = main
+
+Frame.Parent = main
+Frame.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Frame.Position = UDim2.new(-0.000103399158, 0, -0.000696927309, 0)
+Frame.Size = UDim2.new(0, 566, 0, 53)
+
+UICorner_2.Parent = Frame
+
+Title.Name = "Title"
+Title.Parent = main
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0, 0, 0.00602409616, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.SourceSansBold
+Title.Text = "FleXus FE"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Source.Name = "Source"
+Source.Parent = main
+Source.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Source.BorderColor3 = Color3.fromRGB(52, 52, 52)
+Source.Position = UDim2.new(0.0141342757, 0, 0.19879517, 0)
+Source.Size = UDim2.new(0, 550, 0, 184)
+Source.Font = Enum.Font.SourceSansBold
+Source.PlaceholderText = "Hello, thanks for using our FleXus FE! I worked hard on it, so please no hate!"
+Source.Text = ""
+Source.TextColor3 = Color3.fromRGB(255, 255, 255)
+Source.TextSize = 30.000
+Source.TextWrapped = true
+Source.TextXAlignment = Enum.TextXAlignment.Left
+Source.TextYAlignment = Enum.TextYAlignment.Top
+Source.ClearTextOnFocus = false
+
+exec.Name = "exec"
+exec.Parent = main
+exec.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+exec.BorderColor3 = Color3.fromRGB(52, 52, 52)
+exec.Position = UDim2.new(0.0141342757, 0, 0.795180738, 0)
+exec.Size = UDim2.new(0, 133, 0, 50)
+exec.Font = Enum.Font.SourceSansBold
+exec.Text = "Execute"
+exec.TextColor3 = Color3.fromRGB(255, 255, 255)
+exec.TextScaled = true
+exec.TextSize = 14.000
+exec.TextWrapped = true
+
+Clear.Name = "Clear"
+Clear.Parent = main
+Clear.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Clear.BorderColor3 = Color3.fromRGB(52, 52, 52)
+Clear.Position = UDim2.new(0.259717345, 0, 0.795180738, 0)
+Clear.Size = UDim2.new(0, 133, 0, 50)
+Clear.Font = Enum.Font.SourceSansBold
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextScaled = true
+Clear.TextSize = 14.000
+Clear.TextWrapped = true
+
+cmds.Name = "cmds"
+cmds.Parent = main
+cmds.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+cmds.BorderColor3 = Color3.fromRGB(52, 52, 52)
+cmds.Position = UDim2.new(0.505300403, 0, 0.795180738, 0)
+cmds.Size = UDim2.new(0, 133, 0, 50)
+cmds.Font = Enum.Font.SourceSansBold
+cmds.Text = "CMDS"
+cmds.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmds.TextScaled = true
+cmds.TextSize = 14.000
+cmds.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = main
+Credits.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Credits.BorderColor3 = Color3.fromRGB(52, 52, 52)
+Credits.Position = UDim2.new(0.7508834, 0, 0.795180738, 0)
+Credits.Size = UDim2.new(0, 133, 0, 50)
+Credits.Font = Enum.Font.SourceSansBold
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+x.Name = "x"
+x.Parent = main
+x.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+x.BorderColor3 = Color3.fromRGB(52, 52, 52)
+x.Position = UDim2.new(0.899293423, 0, 0.0150602423, 0)
+x.Size = UDim2.new(0, 48, 0, 43)
+x.Font = Enum.Font.SourceSansBold
+x.Text = "X"
+x.TextColor3 = Color3.fromRGB(255, 255, 255)
+x.TextScaled = true
+x.TextSize = 14.000
+x.TextWrapped = true
+
+credits.Name = "credits"
+credits.Parent = Ifyouskidthisanddontgiveanycreditsthenyouraskid
+credits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+credits.BorderColor3 = Color3.fromRGB(117, 117, 117)
+credits.Position = UDim2.new(0.204843596, 0, 0.198098257, 0)
+credits.Selectable = true
+credits.Size = UDim2.new(0, 566, 0, 332)
+credits.Visible = false
+
+UICorner_3.Parent = credits
+
+Frame_2.Parent = credits
+Frame_2.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Frame_2.Position = UDim2.new(-0.000103399158, 0, -0.000696927309, 0)
+Frame_2.Size = UDim2.new(0, 566, 0, 53)
+
+UICorner_4.Parent = Frame_2
+
+Title_2.Name = "Title"
+Title_2.Parent = credits
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.Size = UDim2.new(0, 200, 0, 50)
+Title_2.Font = Enum.Font.SourceSansBold
+Title_2.Text = "FleXus FE"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+Helo.Name = "Helo"
+Helo.Parent = credits
+Helo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Helo.BackgroundTransparency = 1.000
+Helo.Position = UDim2.new(0.0212014131, 0, 0.201807231, 0)
+Helo.Size = UDim2.new(0, 541, 0, 41)
+Helo.Font = Enum.Font.SourceSansBold
+Helo.Text = "Hello, everyone"
+Helo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Helo.TextScaled = true
+Helo.TextSize = 14.000
+Helo.TextWrapped = true
+Helo.TextXAlignment = Enum.TextXAlignment.Left
+
+Back.Name = "Back"
+Back.Parent = credits
+Back.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Back.BackgroundTransparency = 1.000
+Back.Position = UDim2.new(0.848056555, 0, 0.036144577, 0)
+Back.Size = UDim2.new(0, 73, 0, 28)
+Back.Font = Enum.Font.SourceSans
+Back.Text = "Back"
+Back.TextColor3 = Color3.fromRGB(255, 255, 255)
+Back.TextScaled = true
+Back.TextSize = 14.000
+Back.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 999999999)
+UICorner_5.Parent = Back
+
+CMD.Name = "CMD"
+CMD.Parent = Ifyouskidthisanddontgiveanycreditsthenyouraskid
+CMD.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+CMD.BorderColor3 = Color3.fromRGB(117, 117, 117)
+CMD.Position = UDim2.new(0.18892847, 0, 0.199673057, 0)
+CMD.Selectable = true
+CMD.Size = UDim2.new(0, 566, 0, 332)
+CMD.Visible = false
+
+UICorner_6.Parent = CMD
+
+Frame_3.Parent = CMD
+Frame_3.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Frame_3.Position = UDim2.new(-0.000103399158, 0, -0.000696927309, 0)
+Frame_3.Size = UDim2.new(0, 566, 0, 53)
+
+UICorner_7.Parent = Frame_3
+
+Title_3.Name = "Title"
+Title_3.Parent = CMD
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.Size = UDim2.new(0, 200, 0, 50)
+Title_3.Font = Enum.Font.SourceSansBold
+Title_3.Text = "FleXus FE"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextScaled = true
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
+
+Back_2.Name = "Back"
+Back_2.Parent = CMD
+Back_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Back_2.BackgroundTransparency = 1.000
+Back_2.Position = UDim2.new(0.848056555, 0, 0.036144577, 0)
+Back_2.Size = UDim2.new(0, 73, 0, 28)
+Back_2.Font = Enum.Font.SourceSans
+Back_2.Text = "Back"
+Back_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Back_2.TextScaled = true
+Back_2.TextSize = 14.000
+Back_2.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 999999999)
+UICorner_8.Parent = Back_2
+
+CMD1.Name = "CMD1"
+CMD1.Parent = CMD
+CMD1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMD1.BackgroundTransparency = 1.000
+CMD1.Position = UDim2.new(0.505300343, 0, 0.228915662, 0)
+CMD1.Size = UDim2.new(0, 83, 0, 33)
+CMD1.Font = Enum.Font.SourceSansBold
+CMD1.Text = ".SDoll"
+CMD1.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMD1.TextScaled = true
+CMD1.TextSize = 14.000
+CMD1.TextWrapped = true
+
+CMD2.Name = "CMD2"
+CMD2.Parent = CMD
+CMD2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMD2.BackgroundTransparency = 1.000
+CMD2.Position = UDim2.new(0.683745563, 0, 0.228915662, 0)
+CMD2.Size = UDim2.new(0, 150, 0, 33)
+CMD2.Font = Enum.Font.SourceSansBold
+CMD2.Text = ".DefaultDance"
+CMD2.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMD2.TextScaled = true
+CMD2.TextSize = 14.000
+CMD2.TextWrapped = true
+
+CMD4.Name = "CMD4"
+CMD4.Parent = CMD
+CMD4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMD4.BackgroundTransparency = 1.000
+CMD4.Position = UDim2.new(0.0212014131, 0, 0.228915662, 0)
+CMD4.Size = UDim2.new(0, 159, 0, 33)
+CMD4.Font = Enum.Font.SourceSansBold
+CMD4.Text = ".ChristmasSniper"
+CMD4.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMD4.TextScaled = true
+CMD4.TextSize = 14.000
+CMD4.TextWrapped = true
+
+CMD5.Name = "CMD5"
+CMD5.Parent = CMD
+CMD5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMD5.BackgroundTransparency = 1.000
+CMD5.Position = UDim2.new(0.0212014411, 0, 0.352409631, 0)
+CMD5.Size = UDim2.new(0, 67, 0, 33)
+CMD5.Font = Enum.Font.SourceSansBold
+CMD5.Text = " .RTX"
+CMD5.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMD5.TextScaled = true
+CMD5.TextSize = 14.000
+CMD5.TextWrapped = true
+
+CMD6.Name = "CMD6"
+CMD6.Parent = CMD
+CMD6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMD6.BackgroundTransparency = 1.000
+CMD6.Position = UDim2.new(0.166077733, 0, 0.352409631, 0)
+CMD6.Size = UDim2.new(0, 139, 0, 33)
+CMD6.Font = Enum.Font.SourceSansBold
+CMD6.Text = " .NetBypass"
+CMD6.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMD6.TextScaled = true
+CMD6.TextSize = 14.000
+CMD6.TextWrapped = true
+
+HFT.Name = "HFT"
+HFT.Parent = CMD
+HFT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HFT.BackgroundTransparency = 1.000
+HFT.Position = UDim2.new(0.0212014131, 0, 0.484939754, 0)
+HFT.Size = UDim2.new(0, 541, 0, 33)
+HFT.Font = Enum.Font.SourceSansBold
+HFT.Text = "Hats for these"
+HFT.TextColor3 = Color3.fromRGB(255, 255, 255)
+HFT.TextScaled = true
+HFT.TextSize = 14.000
+HFT.TextWrapped = true
+
+HCMD1.Name = "HCMD1"
+HCMD1.Parent = CMD
+HCMD1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HCMD1.BackgroundTransparency = 1.000
+HCMD1.Position = UDim2.new(0.0282685515, 0, 0.638554215, 0)
+HCMD1.Size = UDim2.new(0, 282, 0, 33)
+HCMD1.Font = Enum.Font.SourceSansBold
+HCMD1.Text = "for Christmas Sniper: .CSHD"
+HCMD1.TextColor3 = Color3.fromRGB(255, 255, 255)
+HCMD1.TextScaled = true
+HCMD1.TextSize = 14.000
+HCMD1.TextWrapped = true
+
+HCMD2.Name = "HCMD2"
+HCMD2.Parent = CMD
+HCMD2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HCMD2.BackgroundTransparency = 1.000
+HCMD2.Position = UDim2.new(0.526501775, 0, 0.638554215, 0)
+HCMD2.Size = UDim2.new(0, 246, 0, 33)
+HCMD2.Font = Enum.Font.SourceSansBold
+HCMD2.Text = "For SDoll: .SDollHD"
+HCMD2.TextColor3 = Color3.fromRGB(255, 255, 255)
+HCMD2.TextScaled = true
+HCMD2.TextSize = 14.000
+HCMD2.TextWrapped = true
+
+HCMD3.Name = "HCMD3"
+HCMD3.Parent = CMD
+HCMD3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HCMD3.BackgroundTransparency = 1.000
+HCMD3.Position = UDim2.new(0.0212014318, 0, 0.762048185, 0)
+HCMD3.Size = UDim2.new(0, 246, 0, 33)
+HCMD3.Font = Enum.Font.SourceSansBold
+HCMD3.Text = "For SDollV2: .SDoll2HD"
+HCMD3.TextColor3 = Color3.fromRGB(255, 255, 255)
+HCMD3.TextScaled = true
+HCMD3.TextSize = 14.000
+HCMD3.TextWrapped = true
+
+HCMD3_2.Name = "HCMD3"
+HCMD3_2.Parent = CMD
+HCMD3_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HCMD3_2.BackgroundTransparency = 1.000
+HCMD3_2.Position = UDim2.new(0.485865742, 0, 0.762048185, 0)
+HCMD3_2.Size = UDim2.new(0, 246, 0, 33)
+HCMD3_2.Font = Enum.Font.SourceSansBold
+HCMD3_2.Text = "For Hand: .HandHD"
+HCMD3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+HCMD3_2.TextScaled = true
+HCMD3_2.TextSize = 14.000
+HCMD3_2.TextWrapped = true
+
+CMD7.Name = "CMD7"
+CMD7.Parent = CMD
+CMD7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CMD7.BackgroundTransparency = 1.000
+CMD7.Position = UDim2.new(0.438162535, 0, 0.352409631, 0)
+CMD7.Size = UDim2.new(0, 139, 0, 33)
+CMD7.Font = Enum.Font.SourceSansBold
+CMD7.Text = " .Hand"
+CMD7.TextColor3 = Color3.fromRGB(255, 255, 255)
+CMD7.TextScaled = true
+CMD7.TextSize = 14.000
+CMD7.TextWrapped = true
+
+--// Scripts
+
+exec.MouseButton1Down:Connect(function()
+	if main.Source.Text == ".NetBypass" then
+		print(""..game.Players.LocalPlayer.Name.." used Net Bypass module!")
+		wait(0.4)
+		for i,v in next, game:GetService("Players").LocalPlayer.Character:GetDescendants() do
+			if v:IsA("BasePart") and v.Name ~="HumanoidRootPart" then 
+				game:GetService("RunService").Heartbeat:connect(function()
+					v.Velocity = Vector3.new(0,35,0)
+					wait(0.5)
+				end)
+			end
+		end
+	end
+end)
+
+exec.MouseButton1Down:Connect(function()
+	if main.Source.Text == ".ChristmasSniper" then
+		loadstring(game:HttpGetAsync("https://pastebin.com/raw/HS8bDVzW"))()
+	end
+end)
+
+exec.MouseButton1Down:Connect(function()
+	if main.Source.Text == ".RTX" then
+		print(""..game.Players.LocalPlayer.Name.." used RTX module!")
+		wait(0.4)
+		--// GLOBALS
+
+		game.Lighting.TimeOfDay = 7
+		game.Lighting.Brightness = 3
+		game.Lighting.ShadowSoftness = 0.7
+
+		--// VISUALS
+
+		local sunrays = Instance.new("SunRaysEffect",game.Lighting)
+
+		sunrays.Name = "RTX SunRays"
+		sunrays.Intensity = 0.3
+		sunrays.Spread = 0.5
+		sunrays.Enabled = true
+
+		local blum = Instance.new("BloomEffect",game.Lighting)
+
+		blum.Name = "RTX Bloom"
+		blum.Intensity = 2
+		blum.Size = 24
+		blum.Threshold = 2
+		blum.Enabled = true
+
+
+		local dof = Instance.new("DepthOfFieldEffect",game.Lighting)
+
+		dof.Enabled = true
+		dof.FarIntensity = 0.50
+		dof.FocusDistance = 10
+		dof.InFocusRadius = 50
+		dof.NearIntensity = 1
+
+		local ae = Instance.new("Atmosphere",game.Lighting)
+
+		ae.Enabled = true
+		ae.Name = "RTX AE"
+		ae.Color = Color3.fromRGB(199, 170, 107)
+		ae.Decay = Color3.fromRGB(92, 60, 13)
+		ae.Glare = 4
+		ae.Haze = 1
+	end
+end)
+
+exec.MouseButton1Down:Connect(function()
+	if main.Source.Text == ".SDollHD" then
+		local A_1 = ";hat me 4904137145"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(3)
+
+		local A_1 = ";hat me 4246228452"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+		wait(3)
+		local A_1 = ";hat me 4911305457"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(3)
+
+		local A_1 = ";hat me 4822592866"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+		wait(3)
+		local A_1 = ";hat me 3992084515"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+		wait(3)
+		local A_1 = ";hat me 14815761"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+		wait(3)
+		local A_1 = ";hat me 48474294"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+		wait(3)
+		local A_1 = ";hat me 63690008"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+		wait(3)
+		local A_1 = ";hat me 62234425"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+		wait(2)
+		local A_1 = ";hat me 451220849"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+	end
+end)
+
+exec.MouseButton1Down:Connect(function()
+	if main.Source.Text == ".HandHD" then
+		local A_1 = ";hat me 63690008"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(2)
+
+		local A_1 = ";hat me 4855525473"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+		local A_1 = ";hat me 48474313"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(3)
+
+		local A_1 = ";hat me 8337370"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(3)
+
+		local A_1 = ";hat me 48474313"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(3)
+
+		local A_1 = ";hat me 48474294"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(3)
+
+		local A_1 = ";hat me 451220849"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(3)
+
+		local A_1 = ";hat me 62724852"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(5)
+
+		local A_1 = ";hat me 20372960"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		local A_1 = ";hat me 63690008"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(3)
+
+		local A_1 = ";hat me 63690008"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(3)
+
+		local A_1 = ";hat me 62234425"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(1)
+
+		local A_1 = ";hat me 376524487"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+
+		wait(1)
+	end
+end)
+
+exec.MouseButton1Down:Connect(function()
+	if main.Source.Text == ".SDoll" then
+		loadstring(game:HttpGet(("https://pastebin.com/raw/3JN44C7k"), true))()
+	end
+end)
+
+exec.MouseButton1Down:Connect(function()
+	if main.Source.Text == ".Hand" then
+		loadstring(game:HttpGet(("https://pastebin.com/6tBjCVgd"), true))()
+	end
+end)
+
+exec.MouseButton1Down:Connect(function()
+	if main.Source.Text == ".CSHD" then
+		local A_1 = ";hat me 6005601627"
+		local Event = game:GetService("ReplicatedStorage").HDAdminClient.Signals.RequestCommand
+		Event:InvokeServer(A_1)
+    end
+end)
+
+credits.Visible = false
+credits.Active = true
+credits.Draggable = true
+CMD.Visible = false
+CMD.Active = true
+CMD.Draggable = true
+
+
+main.x.MouseButton1Down:Connect(function(close)
+	pro:Remove()
+end)
+
+main.Clear.MouseButton1Down:Connect(function(clear)
+	main.Source.Text = ""
+end)
+
+main.Credits.MouseButton1Down:Connect(function()
+	credits.Visible = true
+end)
+
+main.cmds.MouseButton1Down:Connect(function()
+	CMD.Visible = true
+end)
